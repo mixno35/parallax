@@ -1,0 +1,19 @@
+<html lang="en">
+    <head>
+        <title>Parallax - Tilt Effect - CSS, JS</title>
+        <script type="text/javaacript" src="parallax.js"></script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            window.addEventListener('load', () => {
+                setParallax('.card', {
+                    fx3d: true, // enables fx3d class.
+                    fxDistance: 70, // distance in px (optional).
+                });
+            });
+        </script>
+        <div class="parallax">
+            <div class="card">Parallax Effect</div>
+        </div>
+    </body>
+</html>
